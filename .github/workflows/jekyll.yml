@@ -62,3 +62,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with: 
+          artifact-path: ./_site
+          deploy-dir: Jekyll_learning
